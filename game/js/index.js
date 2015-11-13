@@ -1,20 +1,19 @@
 function truckgame() {
 var name = prompt("What is your name");
-var Truck = prompt("What truck would you pick? There are:
-    Toyota Tundra, F 450, Chevrolet Silverado, Peel P50, Vauxhall Astra Diesel, Land Rover Spectre Defender.");
+var Truck = prompt("What truck would you pick? There are Toyota Tundra, F 450, Chevrolet Silverado, Peel P50, Vauxhall Astra Diesel, Land Rover Spectre Defender.");
 var score;
     score = 0;;
 switch (Truck) {
 
-		case "Toyota Tundra":
-				alert("It is crap.");
+        case "Toyota Tundra":
+                alert("It is crap.");
     score = score + 1;
-				break;
+                break;
 
     case "Ford F 450":
-				alert("It is america's Icon and Toughest Truck");
+                alert("It is america's Icon and Toughest Truck");
     score = score + 2;
-				break;
+                break;
     case "Chevrolet Silverado":
     score = score -1;
         alert("Very Luxourious but Lame");  
@@ -34,9 +33,9 @@ switch (Truck) {
         alert("Perfect Truck for this era");
     score = score + 5;
         break;
-		default:
+        default:
     
-				alert ("Terrible");
+                alert ("Terrible");
     score = 0;
 alert("Well Done "+ name);
 }}
