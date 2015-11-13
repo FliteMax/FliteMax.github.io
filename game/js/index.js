@@ -1,7 +1,7 @@
 function truckgame() {
 var name = prompt("What is your name");
 var Truck = prompt("What truck would you pick? There are:
-    Toyota Tundra, F 450, Chevrolet Silverado, Peel P50, Vauxhall Astra Diesel, Land Rover Spectre Defender.  ")
+    Toyota Tundra, F 450, Chevrolet Silverado, Peel P50, Vauxhall Astra Diesel, Land Rover Spectre Defender.");
 var score;
     score = 0;;
 switch (Truck) {
